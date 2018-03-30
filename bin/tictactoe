@@ -2,6 +2,16 @@
 
 require_relative '../lib/tic_tac_toe'
 
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts
+puts "***************************"
 puts "Welcome to Tic Tac Toe!"
+puts "***************************"
+
+puts
+puts "The board is represented by 9 spaces listed below:"
+puts
+intro_display_board(board)
+puts
 play(board)
