@@ -12,6 +12,9 @@ puts "***************************"
 puts
 puts "The board is represented by 9 spaces listed below:"
 puts
+puts "Player X goes first..."
+puts
+puts
 
 intro_display_board(board)
 puts

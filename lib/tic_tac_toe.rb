@@ -102,20 +102,6 @@ end
 #determines the winning player; get the return from #won? which is the winning combination array, and passes one of it's index
 #to the board to return the board index value at that index
 
-#----------------
-# def turn(board)
-#   puts "Please enter 1-9:"
-#   input = gets.strip
-#   index = input_to_index(input)
-#   if valid_move?(board, index)
-#     move(board, index, current_player(board))
-#     display_board(board)
-#   else
-#     turn(board)
-#   end
-# end
-
-
 def turn(board)
   puts "Please make your move. Enter 1-9 below:"
   input = gets.strip
